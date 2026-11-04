@@ -1,0 +1,49 @@
+# Environment files are local-only. Keep checked-in examples with blank values.
+.env
+.env.*
+!.env*.example
+!**/.env*.example
+
+# Credentials and private key material.
+*.pem
+*.key
+*.p12
+*.pfx
+*.credentials
+*credentials*.json
+secrets/
+**/secrets/
+
+# Python environments, bytecode, and test/type/lint caches.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# JavaScript dependencies and generated application output.
+node_modules/
+dist/
+build/
+.expo/
+.next/
+coverage/
+*.tsbuildinfo
+
+# Local databases, runtime data, caches, and temporary files.
+*.db
+*.sqlite
+*.sqlite3
+work/
+tmp/
+temp/
+*.log
+backend/scripts/consultation_eval/audio/
+backend/scripts/consultation_eval/results.json
+/backend/var/speech-test.wav
+/backend/var/consultation-audio/
+/backend/var/sarvam-live-audio2/

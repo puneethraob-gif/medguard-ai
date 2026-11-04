@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {"strict":true,"jsx":"react-native","target":"ES2020","moduleResolution":"bundler","allowSyntheticDefaultImports":true,"esModuleInterop":true,"skipLibCheck":true,"types":["jest","node"]},
+  "extends":"expo/tsconfig.base",
+  "include":["**/*.ts","**/*.tsx"]
+}
+
